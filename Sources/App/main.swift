@@ -1,6 +1,8 @@
 import Vapor
 let drop = try Droplet()
+
 drop.get { request in
-    return "Hello, World!"
+    return try drop.view.make("index.leaf")
 }
+
 try drop.run()
