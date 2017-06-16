@@ -1,0 +1,5 @@
+{
+    "username": "$DAUSER",
+    "client_id": "$DACID",
+    "client_secret": "$DACSECRET"
+}
