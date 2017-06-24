@@ -10,6 +10,10 @@ class ConnectionTests: XCTestCase {
         drop = try! Droplet(config: Config(arguments: ["--env=test"]))
     }
     
+    func testUsernameAccessible() {
+        XCTAssertNotNil(drop.config["deviantart", "username"]?.string)
+    }
+    
     func testClientIdAccessible() {
         XCTAssertNotNil(drop.config["deviantart", "client_id"]?.string)
     }
