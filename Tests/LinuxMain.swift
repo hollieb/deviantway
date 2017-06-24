@@ -1,7 +1,7 @@
 #if os(Linux)
 
 import XCTest
-import DeviantArtApiTests
+@testable import DeviantArtApiTests
 
 XCTMain([
     testCase(ConnectionTests.allTests),
