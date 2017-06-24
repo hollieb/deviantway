@@ -3,6 +3,7 @@
 import XCTest
 
 XCTMain([
+    testCase(ConnectionTests.allTests),
 ])
 
 #endif

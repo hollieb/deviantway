@@ -2,11 +2,11 @@ import HTTP
 import Vapor
 
 public class APIConnection {
-    private var accessToken: String?
-    private let username: String
-    private let clientId: String
-    private let clientSecret: String
-    private let drop: Droplet
+    var accessToken: String?
+    let username: String
+    let clientId: String
+    let clientSecret: String
+    let drop: Droplet
     
     public init(drop: Droplet, forUser username: String, clientId: String, clientSecret: String) {
         self.username = username
