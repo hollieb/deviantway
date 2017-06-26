@@ -1,0 +1,22 @@
+site_name: 'DeviantWay'
+site_description: 'A short description of my project'
+site_author: 'jabberabbe'
+copyright: 'Copyright &copy; 2017 Tito Sacchi'
+theme: 'material'
+extra:
+  palette:
+    primary: 'amber'
+    accent: 'deep orange'
+  font:
+    text: "Spectral"
+    code: "Source Code Pro"
+repo_name: 'jabberabbe/deviantway'
+repo_url: 'https://github.com/jabberabbe/deviantway'
+markdown_extensions:
+  - admonition
+  - codehilite(guess_lang=false, linenums=true)
+  - toc(permalink=true)
+  - pymdownx.magiclink
+  - pymdownx.betterem(smart_enable=all)
+  - pymdownx.tasklist(custom_checkbox=true)
+  - pymdownx.superfences
