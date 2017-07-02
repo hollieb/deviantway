@@ -35,6 +35,10 @@
         "file"
     ],
 
+    "//": "Choose the ViewRenderer to be used",
+    "//": "leaf: LeafRenderer from Leaf",
+    "view": "leaf",
+
     "//": "Choose which commands this application can run",
     "//": "prepare: Supplied by the Fluent provider. Prepares the database (configure in fluent.json)",
     "commands": []
