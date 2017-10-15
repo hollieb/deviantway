@@ -10,5 +10,5 @@ class FakeTests: XCTestCase {
 extension FakeTests {
     static var allTests = {
         return [("testFake", testFake)]
-    }
+    }()
 }          
