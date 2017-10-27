@@ -7,8 +7,8 @@
 #export("body") {
   <header class="main-header">
     <div class="container-fluid">
-      <h1 class="user-name">#(user.name)<br class="visible-xs-block">
-        <small>(#(user.realname))</small>
+      <h1 class="user-name">#(user.name)<br class="d-md-none">
+        <small class="text-secondary">(#(user.realname))</small>
       </h1>
     </div>
   </header>
